@@ -1,0 +1,303 @@
+/* .container {
+  padding-bottom: 30rem;
+} */
+body{
+  padding: 0;
+  margin: 0;
+}
+#title{
+  background-color: black;
+}
+
+h1{
+  font-size: 7rem;
+  color: white;
+  /* padding-bottom: 40rem; */
+
+}
+
+.slide-text{
+  padding-bottom: 10rem;
+  color: white;
+  font-size: 2rem;
+  font-family: 'Cantata One', serif;
+
+/* padding-right: 40%; */
+}
+
+.slide-caption{
+  font-family: 'Cantata One', serif;
+  text-align:center;
+}
+
+.navbar-brand {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+    color: #b8860b  !important;
+    margin-top: 5px;
+  }
+
+.icon{
+  padding-right: 1rem;
+  background-color: inherit;
+  
+
+}
+  /* .navbar {
+    padding: 0 0 2rem;
+  } */
+
+  .nav-item {
+    padding: 0 18px;
+  }
+
+  .nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+  }
+
+  .fas {
+    color: #b8860b;
+    padding: 7% 5%;
+   margin: 2 2px;
+  }
+
+  /* .icons{
+    margin: 2 2px;
+    padding: 3% 5%;
+  } */
+
+  .fas:hover {
+    color: white
+  }
+
+
+  .slide{
+  width: 100%;
+height: 50rem;
+
+  }
+
+
+
+.div-1{
+  width: 100%;
+  height: 30rem;
+  background-color: black;
+
+
+}
+
+.card-title{
+  padding-top: 5rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+  color: white;
+}
+
+.card-text{
+  padding-left: 3rem;
+  color: white;
+}
+
+.left{
+  background-color: black;
+border:none;
+padding-right: 5rem ;
+
+}
+
+.right{
+  background-color:black;
+border:none;
+
+}
+
+.gift-text{
+padding-top: 5rem;
+
+}
+
+
+
+.leaf-text h5{
+  padding-top: 5rem;
+
+}
+
+.beans-text h5{
+  padding-top: 3rem;
+}
+
+.spinner{
+
+  height: 100px;
+  width: 100px;
+  border: 1.5px solid #daa520;
+
+  animation: 10s spinner ease-in-out infinite;
+
+}
+
+@keyframes spinner {
+  from{
+    transform: scale(1) rotate(0);
+  }
+  50%{
+    transform: scale(2.5) rotate(180deg);
+  }
+  to{
+    transform:  scale(1) rotate(360deg) ;
+  }
+}
+
+.div-2{
+
+  width: 100%;
+  height: 40rem;
+  background-image: url(images/pic-9.jpg);
+
+
+  background-size: cover;
+  background-attachment: fixed;
+
+
+}
+
+.spinner-background{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20rem;
+/* filter: blur(2px); */
+}
+
+.div-3{
+  width: 100%;
+  height: 30rem;
+  background-color: grey;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.choclate-img{
+  height: 15rem;
+  width: 15rem;
+}
+
+ .ratecard-title{
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.ratecard-title:hover{
+  color: #daa520;
+}
+.price{
+  color: #daa520;
+  font-size: 1.5rem;
+}
+.div-4{
+  width: 100%;
+  height: 50rem;
+filter: blur(2px);
+  background-image: url(images/background-8.jpg);
+background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.div-4 h1{
+color: black;
+text-decoration: underline;
+}
+.play-button{
+  background-color: inherit;
+  border-top-width: 0px;
+   border-bottom-width: 0px;
+   border-left-width: 0px;
+   border-right-width: 0px;
+   padding-top: 3rem;
+}
+
+.video{
+
+  text-align: center;
+padding-top: 15rem;
+
+}
+
+
+.div-5{
+  width: 100%;
+  height: 40rem;
+  background-color: #87cefa;
+  text-align: center;
+  padding-top: 3rem;
+
+}
+
+.review{
+  background-image: url(images/pattern-3.jpg);
+  background-size: cover;
+margin-top: 5%;
+margin-bottom: 20%;
+    height: 383px;
+    width: 900px;
+    margin-left: 17%;
+       border: 2.5px solid red;
+
+}
+
+.review-spinner{
+  margin-left: 40%;
+  margin-bottom: 50%;
+}
+
+.div-5 h3{
+  font-size:3rem;
+  font-family: 'Poiret One', cursive;
+}
+
+.div-5 h4{
+  padding-top: 6rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  color: white;
+  font-family: 'Festive', cursive;
+  font-size: 3rem;
+}
+
+.footer-image{
+  width: 1000px;
+filter: blur(2px);
+padding-left: 10rem;
+background-color: black;
+}
+
+
+.div-6{
+  background-color: black;
+
+}
+#footer{
+  text-align: center;
+
+}
+
+.wavy {
+
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #daa520;
+}
+
+.foot{
+  padding: 2% ;
+
+}
+
+.foot:hover{
+  color:#daa520 ;
+}
